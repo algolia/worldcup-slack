@@ -1,13 +1,14 @@
 {
   "name": "slack-worldcup",
   "version": "0.0.1",
+  "private": true,
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "engines": {
-    "node": "9.11.1",
-    "npm": "6.1.0"
+    "node": "^10.5.0",
+    "yarn": "^1.7.0"
   },
   "dependencies": {
     "cron": "^1.0.4",
@@ -15,10 +16,5 @@
     "lodash": "^4.17.10",
     "moment-timezone": "^0.5.17",
     "slack-notify": "^0.1.2"
-  },
-  "xo": {
-    "rules": {
-      "camelcase": "off"
-    }
   }
 }
